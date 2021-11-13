@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 50px;
+}
+
+a {
+  color: red;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  border: 1px solid red;
+}
+
+.form-control {
+  margin: 10px;
+  padding: 10px;
+  color: #ccc;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button {
+  width: 140px;
+  margin: 10px;
+  padding: 13px;
+  border-radius: 5px;
+}
+.button__signup {
+  color: white;
+  background-color: red;
+  border: none;
+}
+.button__signin {
+  color: red;
+  background-color: white;
+  border: 1px solid red;
+}
